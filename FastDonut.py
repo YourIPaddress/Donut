@@ -14,7 +14,7 @@ FPS = 60
 pixel_width = 20
 pixel_height = 20
 
-x_pixel = 0
+X_pixel = 0
 y_pixel = 0
 
 screen_width = WIDTH // pixel_width
@@ -103,10 +103,10 @@ while running:
     for i in range(screen_height):
         y_pixel += pixel_height
         for j in range(screen_width):
-            x_pixel += pixel_width
-            text_display(output[k], x_pixel, y_pixel)
+            X_pixel += pixel_width
+            text_display(output[k], X_pixel, y_pixel)
             k += 1
-        x_pixel = 0
+        X_pixel = 0
     y_pixel = 0
     k = 0
 

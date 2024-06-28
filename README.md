@@ -1,3 +1,4 @@
+# Donut
 An animation of a donut created using ASCII special character is rotated with change in colour every second or two.
 
 So the simplified process looks like this:
